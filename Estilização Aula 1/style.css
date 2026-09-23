@@ -41,7 +41,7 @@ p {
     font-weight: bold;
 }
 
-.parent-box > p {
+.parent-box>p {
     color: #2563eb;
     font-weight: bold;
 }
