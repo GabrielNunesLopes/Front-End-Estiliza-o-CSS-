@@ -1,0 +1,59 @@
+.pricing-card.destaque {
+    width: 300px;
+    background-color: #ffffff;
+    border: 2px solid #6366f1;
+    border-radius: 16px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card.destaque .plano {
+    color: #6366f1;
+    text-transform: uppercase;
+    margin: 0 0 8px 0;
+    font-size: 1.25rem;
+}
+
+.pricing-card.destaque .preco {
+    font-size: 32px;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+
+.pricing-card.destaque .recursos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #4b5563;
+}
+
+.pricing-card.destaque .recursos li::before {
+    color: #6366f1;
+    font-weight: bold;
+}
+
+.pricing-card.destaque .btn-assinar {
+    width: 100%;
+    background-color: #6366f1;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.pricing-card.destaque .btn-assinar:hover {
+    background-color: #4f46e5;
+}
